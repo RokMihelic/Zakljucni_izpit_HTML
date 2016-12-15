@@ -1,0 +1,311 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+body {
+   background-color: #111;
+}
+
+.stran {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0px auto;
+   text-align: center;
+   position: relative;
+}
+
+.cel, .pol {
+   min-height: 300px;
+   height: 450px;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   float: left;
+   position: relative;
+}
+
+.cel {
+   width: 100%;
+}
+
+.pol {
+   width: 50%;
+   max-width: 100%;
+}
+
+h1 {
+   color: #06c2ff;
+   text-align: center;
+   text-shadow: 0px 0px 1px black;
+   padding: 5px;
+   font-size: 40px;
+   letter-spacing: 2px;
+   position: absolute;
+   top: 50%;
+   left: 0;
+   right: 0;
+   background-color: rgba(0,0,0,0.85);
+   width: 400px;
+   margin: auto;
+   transform: translateY(-50%);
+   cursor: pointer;
+}
+
+h1:hover {
+   background-color: rgba(0,0,0,9);
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Orbitron', sans-serif;
+}
+
+#counterstrike {
+   background-image: url(slike/csgo_3.jpg);
+   height: 300px!important;
+}
+
+#zgodovina {
+   background-image: url(slike/zgodovina.jpg);
+}
+
+#zgodovina h1 {
+   color: lightblue;
+   border: 3px solid lightblue;
+}
+
+#ekipe {
+   background-image: url(slike/ekipe.jpg);
+   
+}
+
+#igralci {
+   background-image: url(slike/igralci.jpg);
+}
+
+#igralci h1 {
+   color: yellow;
+   border: 3px solid yellow;
+}
+
+#turnirji {
+   background-image: url(slike/turnirji.jpg);
+}
+
+
+
+#turnirji h1 {
+   color: magenta;
+   border: 3px solid magenta;
+}
+
+#sponzorji {
+   background-image: url(slike/sponzorji.jpg);
+}
+
+#ekipe h1 {
+   color: dodgerblue;
+   border:  3px solid dodgerblue;
+}
+
+#sponzorji h1 {
+   color: limegreen;
+   border: 3px solid limegreen;
+}
+
+#zanimivosti {
+   background-image: url(slike/zanimivosti.jpg)
+}
+
+#zanimivosti h1 {
+   color: red;
+   border: 3px solid red;
+}
+
+h2 {
+   font-size: 300%;
+   color: dodgerblue;
+   border-bottom: 3px solid dodgerblue;
+   font-weight: 100;
+   margin-bottom: 15px;
+   text-transform: uppercase;
+}
+
+.ekipe {
+   
+}
+
+.ekipa {
+   height: 350px;
+   position: relative;
+   width: 700px;
+   margin-bottom: 15px;
+}
+
+.levo .slika-ekipe {
+   height: 100%;
+   position: absolute;
+   left: 0px;
+   bottom: 0px;
+}
+.desno .slika-ekipe {
+   height: 100%;
+   position: absolute;
+   right: 0px;
+   bottom: 0px;
+}
+
+.levo .clani-ekipe {
+   right: 0;
+   padding-right: 10px;
+}
+
+.desno .clani-ekipe {
+   left: 0;
+   padding-left: 10px;
+}
+
+
+.clani-ekipe {
+   width: 47%;
+   position: absolute;
+   bottom: 0;
+   top: 0;
+   padding-top: 10px;
+}
+
+
+.clan {
+   height: 50px;
+   position: relative;
+   margin-bottom: 5px;
+}
+
+.clan img {
+   height: 100%;
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+
+.clan h3 {
+   position: absolute;
+   top: 13px;
+   right: 0;
+   left: 0;
+   font-weight: 100;
+}
+
+a {
+   color: whitesmoke;
+   font-weight: 100;
+}
+
+.clan:hover {
+   background-color: rgba(0,0,0,0.5);
+}
+
+a.domov {
+   font-family: 'Orbitron', sans-serif;
+   font-size: 150%;
+   text-decoration: none;
+   position: absolute;
+   left: 12px;
+   top: 7px;
+   border: 3px solid rgba(245, 245, 245, 0.6);
+   color: rgba(245, 245, 245, 0.6);
+   padding: 5px;
+}
+
+a.nazaj {
+   font-family: 'Orbitron', sans-serif;
+   font-size: 150%;
+   text-decoration: none;
+   position: absolute;
+   left: 146px;
+   top: 7px;
+   border: 3px solid rgba(245, 245, 245, 0.6);
+   color: rgba(245, 245, 245, 0.6);
+   padding: 5px;
+}
+
+a.domov:hover {color: whitesmoke;border: 3px solid whitesmoke;}
+a.nazaj:hover {color: whitesmoke;border: 3px solid whitesmoke;}
+
+.igralci {
+   
+}
+
+.igralec {
+   display: inline-block;
+   margin: 15px;
+}
+
+.igralec h3 {
+   color: whitesmoke;
+   font-weight: 100;
+}
+
+.igralec img {
+   width: 200px;
+}
+
+.igralec h4 {
+   color: yellow;
+   font-weight: 100;
+}
+
+a {text-decoration: none;}
+
+.oseba img {float: left;margin: 10px;}
+
+.podatki p {
+   font-family: 'Orbitron', sans-serif;
+   color: whitesmoke;
+   text-align: left;
+   padding: 10px 15px;
+}
+
+span {color: orange}
+
+table {
+   width: 100%;
+   color: whitesmoke;
+   font-family: 'Orbitron', sans-serif;
+}
+
+tr {
+   
+}
+
+th {
+   color: orange;
+   font-weight: 100;
+   text-align: left;
+   padding: 5px 10px;
+}
+
+td {
+   padding: 3px 10px;
+}
+
+
+
+.zanimivost {
+   min-height: 200px;
+   margin: 10px 0px;
+}
+
+.zanimivosti h2 {
+   font-size: 170%;
+   color: orange;
+   border: none;
+}
+
+.zanimivosti p {
+   color: whitesmoke;
+   font-family: 'Orbitron', sans-serif;
+   text-align: justify;
+   padding: 5px 15px
+}
